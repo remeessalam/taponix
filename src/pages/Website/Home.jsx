@@ -45,8 +45,8 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          AI Company - Leading AI & Technology Solutions Provider | Custom Software
-          Development
+          AI Company - Leading AI & Technology Solutions Provider | Custom
+          Software Development
         </title>
         <meta
           name="description"
@@ -157,7 +157,7 @@ const Home = () => {
                     className="w-full h-full object-cover absolute top-0 left-0 rounded group-hover:scale-110 transition-all duration-300"
                   />
                   <div className="w-full h-full absolute top-0 left-0 bg-white/70 group-hover:bg-black/60 transition-all duration-300"></div>
-                  <h3 className="text-center text-[1.3rem] font-medium relative z-10 group-hover:text-white transition-all duration-300">
+                  <h3 className="text-center text-black text-[1.3rem] font-medium relative z-10 group-hover:text-white transition-all duration-300">
                     {item.title}
                   </h3>
                   <p className="text-gray-800 text-md mt-2 relative z-10 group-hover:text-white transition-all duration-300">

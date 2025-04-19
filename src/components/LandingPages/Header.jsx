@@ -9,8 +9,8 @@ import { IoMdClose } from "react-icons/io";
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
-    <div className="fixed top-0 z-50 w-full bg-white/50 backdrop-blur-sm text-primary">
-      <div className="flex wrapper items-center gap-8 justify-between">
+    <div className="fixed top-0 h-[6.5rem] flex items-center z-50 w-full bg-black backdrop-blur-sm text-white">
+      <div className="flex wrapper items-center gap-8 justify-between w-full">
         <ReactScrollLink
           to="banner"
           className="cursor-pointer"
@@ -23,7 +23,7 @@ const Header = () => {
             alt="logo"
             width="auto"
             height="auto"
-            className="h-[5rem] md:h-[6.5rem] object-contain"
+            className="h-[2.5rem] sm:h-[4rem] md:h-[4rem] object-contain"
           />
         </ReactScrollLink>
         <div className="hidden md:flex items-center gap-10">
@@ -34,7 +34,7 @@ const Header = () => {
               duration={1000}
               offset={-70}
               activeClass="active-item"
-              className="text-sm cursor-pointer text-gray-800 hover:text-primary transition-all duration-300"
+              className="text-sm cursor-pointer text-gray-100 hover:text-primary transition-all duration-300"
               key={item.id}
               to={item.link}
             >
