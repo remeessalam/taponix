@@ -38,7 +38,7 @@ const Banner = () => {
             data-aos="fade-right"
             className="text-[2.5rem] md:text-5xl font-bold leading-tight"
           >
-            AI Company - Powering the Future with Intelligent Solutions
+            TAPONIX INFINITY - Powering the Future with Intelligent Solutions
           </h1>
           <p data-aos="fade-right" className="text-sm text-gray-100">
             Harness the full potential of Artificial Intelligence, Blockchain,

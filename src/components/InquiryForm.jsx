@@ -36,7 +36,7 @@ const InquiryForm = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from AI Company",
+      subject: "You have a new message from  TAPONIX INFINITY ",
       body: emailBody,
     };
 
@@ -79,9 +79,9 @@ const InquiryForm = () => {
               Let’s Collaborate to Innovate
             </h2>
             <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
-              At AI Company, we’re dedicated to providing technology solutions
-              that transform businesses. Contact us today to discuss how our
-              expertise can support your business goals.
+              At TAPONIX INFINITY , we’re dedicated to providing technology
+              solutions that transform businesses. Contact us today to discuss
+              how our expertise can support your business goals.
             </p>
           </div>
           <form

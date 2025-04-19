@@ -26,9 +26,9 @@ const Banner = React.lazy(() => import("../../components/Website/Banner"));
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "AI Company",
+  name: " TAPONIX INFINITY ",
   description:
-    "AI Company is a globally recognized leader in delivering cutting-edge technology solutions including AI, Machine Learning, Blockchain, and Cloud Computing.",
+    " TAPONIX INFINITY  is a globally recognized leader in delivering cutting-edge technology solutions including AI, Machine Learning, Blockchain, and Cloud Computing.",
   image: companyDetails.logo,
   address: {
     "@type": "PostalAddress",
@@ -45,12 +45,12 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          AI Company - Leading AI & Technology Solutions Provider | Custom
+          TAPONIX INFINITY - Leading AI & Technology Solutions Provider | Custom
           Software Development
         </title>
         <meta
           name="description"
-          content="AI Company offers cutting-edge AI, Machine Learning, and Blockchain solutions. Transform your business with our custom software development and technology consulting services."
+          content=" TAPONIX INFINITY  offers cutting-edge AI, Machine Learning, and Blockchain solutions. Transform your business with our custom software development and technology consulting services."
         />
         <meta
           name="keywords"
@@ -61,11 +61,11 @@ const Home = () => {
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="AI Company - Leading AI & Technology Solutions Provider"
+          content=" TAPONIX INFINITY  - Leading AI & Technology Solutions Provider"
         />
         <meta
           property="og:description"
-          content="Transform your business with cutting-edge AI, Machine Learning, and Blockchain solutions from AI Company."
+          content="Transform your business with cutting-edge AI, Machine Learning, and Blockchain solutions from  TAPONIX INFINITY ."
         />
         <meta property="og:image" content={aboutImg} />
         <meta property="og:url" content="https://www.aiwebx.in" />
@@ -74,7 +74,7 @@ const Home = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="AI Company - Leading AI & Technology Solutions Provider"
+          content=" TAPONIX INFINITY  - Leading AI & Technology Solutions Provider"
         />
         <meta
           name="twitter:description"
@@ -114,9 +114,9 @@ const Home = () => {
                 We Provide the Best IT Solution Services
               </h1>
               <p data-aos="fade-up" className="text-center max-w-2xl">
-                At AI Company, we offer a full range of advanced technology
-                services designed to empower businesses with scalable,
-                intelligent, and secure solutions.
+                At TAPONIX INFINITY , we offer a full range of advanced
+                technology services designed to empower businesses with
+                scalable, intelligent, and secure solutions.
               </p>
               <div
                 data-aos="fade-up"
@@ -187,7 +187,7 @@ const Home = () => {
                     src={whoWeAre}
                     width="500"
                     height="400"
-                    alt="AI Company company overview"
+                    alt=" TAPONIX INFINITY  company overview"
                     className="rounded-lg h-[20rem] md:h-full md:max-h-[25rem] w-full object-cover object-right"
                   />
                   <div className="w-full sm:w-fit sm:max-w-[18rem] text-white h-full sm:h-fit absolute md:-bottom-[5rem] bottom-0 left-0 bg-primary/70 sm:bg-primary p-5 rounded-lg">
@@ -206,10 +206,10 @@ const Home = () => {
                     Technology
                   </h2>
                   <p>
-                    At AI Company, we are committed to delivering innovative AI,
-                    Machine Learning, and Blockchain solutions that help
-                    businesses adapt and excel in an increasingly complex and
-                    competitive marketplace.
+                    At TAPONIX INFINITY , we are committed to delivering
+                    innovative AI, Machine Learning, and Blockchain solutions
+                    that help businesses adapt and excel in an increasingly
+                    complex and competitive marketplace.
                   </p>
                   <Link to="/about-us" className="primary-btn mt-7 w-fit">
                     Know More About Us
