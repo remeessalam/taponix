@@ -1,13 +1,14 @@
 import React from "react";
-import img1 from "../../assets/images/services-details/cloudcomputing1.jpg";
-import img2 from "../../assets/images/services-details/cloudcomputing2.png";
+import img1 from "../../assets/images/services-details/aicalling1.jpg"; // Replace with relevant AI calling image
+import img2 from "../../assets/images/services-details/aicalling2.jpg"; // Replace with a second relevant image
 import { Link } from "react-router-dom";
 import { services } from "../../data/constant";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 
 const AICallingAgency = () => {
-  const prev = services[3];
-  const next = services[5];
+  const prev = services[6];
+  const next = services[8];
+
   return (
     <div className="flex flex-col gap-10">
       <img
@@ -15,52 +16,47 @@ const AICallingAgency = () => {
         data-aos="fade-up"
         src={img1}
         className="h-[25rem] object-cover rounded-3xl object-center"
-        alt="cloud computing"
+        alt="AI Calling"
       />
+
       <div className="flex flex-col gap-4">
         <h2 data-aos="fade-up" className="heading">
-          Cloud Computing Services
+          AI Calling Solutions & Automation
         </h2>
         <p data-aos="fade-up" className="description">
-          In today's fast-paced digital landscape, cloud computing has become an
-          essential component for businesses seeking to enhance flexibility,
-          scalability, and efficiency. At AI Company, we offer comprehensive
-          cloud computing services designed to empower organizations to leverage
-          the full potential of cloud technology. Our focus on delivering
-          tailored solutions ensures that businesses can adapt to changing
-          demands while optimizing their operations.
+          Step into the future of communication with{" "}
+          <strong>TAPONIX INFINITY’s AI Calling Solutions</strong>. We provide
+          intelligent voice automation services tailored for modern
+          businesses—from customer support and appointment booking to lead
+          generation and feedback collection. Our AI agents can handle thousands
+          of simultaneous calls with natural, human-like interaction.
         </p>
+
         <h2 data-aos="fade-up" className="text-2xl font-semibold mt-5">
-          Elevating Business Potential
+          Revolutionize Your Customer Experience
         </h2>
         <p data-aos="fade-up" className="description">
-          Cloud computing provides numerous advantages, including cost savings,
-          enhanced collaboration, and improved data security. By migrating to
-          the cloud, organizations can significantly reduce their IT
-          infrastructure costs, as they no longer need to invest in expensive
-          hardware and maintenance. Instead, they can utilize scalable cloud
-          resources that allow them to pay only for what they need. This model
-          is particularly beneficial for startups and small businesses, which
-          can access advanced technologies without a hefty upfront investment.
+          Using advanced NLP (Natural Language Processing), speech synthesis,
+          and conversational AI, we help businesses reduce response time, scale
+          operations, and increase customer satisfaction. Whether you're in real
+          estate, healthcare, e-commerce, or finance, our AI voice assistants
+          can deliver 24/7 service that feels personal and professional.
           <br />
           <br />
-          At AI Company, we offer a range of cloud services, including
-          Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and
-          Software as a Service (SaaS). Our IaaS solutions provide businesses
-          with virtualized computing resources, enabling them to run
-          applications and store data in a flexible and scalable environment.
-          With PaaS, we empower developers to build, test, and deploy
-          applications without worrying about the underlying infrastructure,
-          allowing them to focus on innovation.
+          Our AI calling platform integrates with CRMs, calendars, and customer
+          databases, offering a seamless and fully automated workflow. From
+          outbound promotional calls to inbound query resolution, we automate
+          repetitive conversations so your team can focus on what matters.
         </p>
       </div>
+
       <div className="grid lg:grid-cols-2 gap-7">
         <div className="h-full w-full">
           <img
             loading="lazy"
             src={img2}
             className="h-full max-h-[20rem] w-full lg:max-h-max object-cover rounded-md"
-            alt="cloud computing"
+            alt="AI Voice Agent"
           />
         </div>
         <div className="flex flex-col gap-4">
@@ -70,12 +66,12 @@ const AICallingAgency = () => {
                 ✓
               </div>
               <h3 className="text-lg font-semibold">
-                Cost-Effective Scalability
+                Human-Like Voice Interaction
               </h3>
             </div>
             <p>
-              Our cloud services allow businesses to scale their resources
-              according to demand, promoting efficiency and cost savings.
+              Deliver smooth, empathetic, and responsive conversations that make
+              your customers feel heard—without human agents.
             </p>
           </div>
           <div className="flex flex-col gap-2">
@@ -84,25 +80,26 @@ const AICallingAgency = () => {
                 ✓
               </div>
               <h3 className="text-lg font-semibold">
-                Expert Guidance and Support
+                Seamless CRM & API Integration
               </h3>
             </div>
             <p>
-              We provide end-to-end support for clients during their cloud
-              journey, ensuring a smooth transition and ongoing success.
+              Easily plug into your existing tools—HubSpot, Salesforce, Google
+              Calendar, and more—for smarter automation.
             </p>
           </div>
         </div>
       </div>
-      <p>
-        As technology continues to evolve, AI Company remains committed to
-        exploring new advancements in cloud computing. We stay informed about
-        emerging trends and innovations, ensuring that our clients benefit from
-        the latest capabilities. Our dedication to continuous improvement drives
-        us to refine our cloud services, providing clients with cutting-edge
-        solutions that enhance their operational effectiveness.
+
+      <p className="description">
+        At <strong>TAPONIX INFINITY</strong>, we're building the next generation
+        of customer interaction. Our AI calling solutions are constantly
+        evolving with real-time learning and sentiment analysis, giving your
+        business a competitive edge in every conversation.
       </p>
+
       <hr />
+
       <div className="flex w-full justify-between gap-6">
         <Link to={prev.link} className="flex items-center gap-3">
           <img
@@ -118,6 +115,7 @@ const AICallingAgency = () => {
             </p>
           </div>
         </Link>
+
         <Link to={next.link} className="flex items-center gap-3">
           <img
             loading="lazy"
