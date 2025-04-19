@@ -1,6 +1,7 @@
 import React from "react";
 import { appPortfolio, webPortfolio } from "../data/constant";
 import line from "../assets/images/line.png";
+import { Link } from "react-router-dom";
 
 const Portfolio = ({ page }) => {
   const isWebDevelopment = Boolean(page === "web-development");
@@ -16,7 +17,8 @@ const Portfolio = ({ page }) => {
           <h2 className="heading text-center mb-5">Few of Our Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {portfolio.map((item) => (
-              <div
+              <Link
+                to={item.link}
                 data-aos="fade-up"
                 key={item.id}
                 className="flex flex-col gap-3 rounded-md overflow-hidden relative group w-full"
@@ -30,7 +32,7 @@ const Portfolio = ({ page }) => {
                 <div className="absolute bottom-0 left-0 w-full p-2 bg-primary/80 text-white flex flex-col gap-2">
                   <h3 className="font-medium text-center">{item.title}</h3>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

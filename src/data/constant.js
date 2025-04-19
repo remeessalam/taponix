@@ -621,25 +621,25 @@ export const appPortfolio = [
     id: 1,
     img: DubaiTravelGuideImg,
     title: "Dubai Travel Guide",
-    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
+    // link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
   },
   {
     id: 2,
     img: EloraHairPalourImg,
     title: "Elora Hair Palour",
-    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
+    // link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
   },
   {
     id: 3,
     img: EvansFrancisImg,
     title: "Evans Francis",
-    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
+    // link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
   },
   {
     id: 4,
     img: HouseOfDeliverenceImg,
     title: "House of Deliverence",
-    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
+    // link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
   },
   {
     id: 5,
@@ -651,7 +651,7 @@ export const appPortfolio = [
     id: 6,
     img: NamazImg,
     title: "Namaz",
-    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
+    // link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
   },
   {
     id: 7,
