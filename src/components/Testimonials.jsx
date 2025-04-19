@@ -4,6 +4,7 @@ import line from "../assets/images/line.png";
 import users from "../assets/images/users-grp.png";
 import { testimonials } from "../data/constant";
 import gsap from "gsap";
+import { BiSolidUser } from "react-icons/bi";
 
 const Testimonials = () => {
   useEffect(() => {
@@ -62,14 +63,18 @@ const Testimonials = () => {
               key={item.id}
               className="testimonial-item text-black bg-white opacity-0 absolute inset-0 w-full h-full flex flex-col justify-center p-5 rounded-md border-2 border-black/60 shadow-2xl"
             >
-              <img
+              <div className="bg-secondary rounded-full p-2 absolute top-[-3.5rem] left-1/2 -translate-x-1/2 sm:-translate-x-0 sm:left-[-3.5rem] sm:top-1/2 sm:-translate-y-1/2">
+                <BiSolidUser className="w-[6rem] h-[6rem]  rounded-full text-white" />
+              </div>
+
+              {/* <img
                 width="75"
                 height="75"
                 loading="lazy"
                 src={item.img}
                 className="w-[7rem] h-[7rem] object-contain rounded-full absolute top-[-3.5rem] left-1/2 -translate-x-1/2 sm:-translate-x-0 sm:left-[-3.5rem] sm:top-1/2 sm:-translate-y-1/2"
                 alt=""
-              />
+              /> */}
               <div className="sm:pl-[5rem] sm:pr-[3rem] pt-[3rem] sm:pt-0 flex flex-col gap-3">
                 <p className="text-sm text-wrap">{item.review}</p>
                 <h5 className="text-[1.25rem] sm:text-3xl text-center sm:text-start">

@@ -325,43 +325,147 @@ export const generalDevelopmentWorkflow = [
 export const testimonials = [
   {
     id: 1,
-    name: "John Peterson",
+    name: "Sarah L.",
     img: require("../assets/images/testimonials/review-p1.png"),
-    designation: "CEO of TechNext Solutions",
+    designation: "Marketing Director, TechPulse Solutions",
     review:
-      "AI Company transformed the way we handle our data analytics. Their AI and machine learning solutions have not only improved our efficiency but also provided us with deep insights that we never had before. Their team is professional, responsive, and innovative.",
+      "We partnered with TAPONIX INFINITY to redesign our website, and it was an incredible experience. The team was attentive to our vision and really captured the essence of our brand. The result was a sleek, user-friendly site that not only looks great but functions flawlessly. Since the launch, our traffic and engagement have skyrocketed. We couldn't have asked for a better outcome.",
   },
   {
     id: 2,
-    name: "Samantha Green",
+    name: "John P.",
     img: require("../assets/images/testimonials/review-p2.png"),
-    designation: "CTO of FinServ Global",
+    designation: "Founder & CEO, FreshBrew Café",
     review:
-      "The blockchain solutions developed by AI Company have been a game-changer for our financial services. The implementation was seamless, and we’ve noticed enhanced security and transparency in our transactions. Highly recommend them for any blockchain needs!",
+      "Our old website was holding us back, but TAPONIX INFINITY transformed it into a modern, responsive platform. The entire process was smooth, and they made sure to communicate every step of the way. Our new website is attracting more customers, and it’s easier than ever to manage content.",
   },
   {
     id: 3,
-    name: "Mark Davis",
+    name: "Maya T.",
     img: require("../assets/images/testimonials/review-p3.png"),
-    designation: "COO of E-Commerce Hub",
+    designation: "Head of Product, SwiftGo Mobility",
     review:
-      "We partnered with AI Company for custom web and mobile app development, and they exceeded our expectations. Their attention to detail, creativity, and commitment to delivering on time was remarkable. The app is user-friendly and has significantly improved our customer engagement.",
+      "We needed an app that would engage our customers and elevate their experience. TAPONIX INFINITY exceeded our expectations. From concept to launch, they made sure the app was intuitive, fast, and user-friendly. We've already seen a significant uptick in user engagement, and our customers love the new app.",
   },
   {
     id: 4,
-    name: "Lisa Wong",
+    name: "David K.",
     img: require("../assets/images/testimonials/review-p4.png"),
-    designation: "IT Director at Global Enterprises",
+    designation: "Chief Technology Officer, FinPay Solutions",
     review:
-      "The cybersecurity solutions provided by AI Company have given us peace of mind. They thoroughly assessed our infrastructure and implemented advanced threat detection and encryption technologies that protect our sensitive data. Their expertise is second to none!",
+      "The team at TAPONIX INFINITY helped us develop an app that works flawlessly on both iOS and Android. They guided us through the entire process, and the result was exactly what we had envisioned. Our users are happier, and our app's performance has exceeded expectations.",
   },
   {
     id: 5,
-    name: "David Thompson",
+    name: "Anjali R.",
     img: require("../assets/images/testimonials/review-p5.png"),
-    designation: "HR Director at HealthCare Innovators",
+    designation: "Operations Manager, GreenTech Innovations",
     review:
-      "Our collaboration with AI Company on VR development has opened new doors for our training programs. Their VR simulations are incredibly realistic and have helped us provide more effective and engaging training sessions for our employees.",
+      "Working with TAPONIX INFINITY on our AI project was a game changer. The AI-powered solution they developed has automated many of our key processes, saving us time and money. They understood our needs perfectly and delivered a product that has greatly improved our efficiency and decision-making.",
+  },
+  {
+    id: 6,
+    name: "Peter M.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Director of Data Analytics, RetailHub",
+    review:
+      "We were initially unsure about how to integrate machine learning into our operations, but TAPONIX INFINITY made it simple. They built predictive models that are now helping us make better decisions faster. The entire process was collaborative, and the results speak for themselves.",
+  },
+  {
+    id: 7,
+    name: "Rachel W.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "HR Manager, TechX Industries",
+    review:
+      "The VR training solution that TAPONIX INFINITY developed for us is incredible. It’s engaging, effective, and has greatly improved how we train new employees. We’ve already seen significant improvements in training outcomes, and it’s all thanks to the immersive experience they created.",
+  },
+  {
+    id: 8,
+    name: "Mark T.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Marketing Lead, FashionNow",
+    review:
+      "We approached TAPONIX INFINITY to create an AR campaign to boost our marketing efforts, and the results were nothing short of amazing. They brought our concept to life with a creative and interactive experience that resonated deeply with our customers. Our engagement numbers have never been higher!",
+  },
+  {
+    id: 9,
+    name: "Linda S.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Supply Chain Manager, ClearPath Logistics",
+    review:
+      "We reached out to TAPONIX INFINITY to help us implement a blockchain solution for our supply chain, and we couldn’t be more satisfied. Their team was meticulous in understanding our requirements and delivered a system that enhances transparency and security. It’s already had a positive impact on our operations.",
+  },
+  {
+    id: 10,
+    name: "Ryan D.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "COO, PayChain Technologies",
+    review:
+      "The blockchain-based payment system developed by TAPONIX INFINITY has transformed how we handle transactions. It’s secure, reliable, and incredibly fast. Their team made the whole process straightforward and seamless, and the results have been excellent.",
+  },
+  {
+    id: 11,
+    name: "Grace P.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "IT Director, GlobalSoft Solutions",
+    review:
+      "Migrating our systems to the cloud was something we had been putting off for years, but TAPONIX INFINITY made the process easy. They guided us through every step, and now we have a secure, scalable cloud environment that’s improved our operational efficiency. We can’t imagine going back to the old way of doing things!",
+  },
+  {
+    id: 12,
+    name: "Tom C.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Founder, FinEdge Capital",
+    review:
+      "Thanks to TAPONIX INFINITY, we were able to move to the cloud smoothly and without any major disruptions. Their expertise in cloud computing helped us enhance our infrastructure, save on IT costs, and scale our operations as we grow. We’re more agile than ever.",
+  },
+  {
+    id: 13,
+    name: "Olivia J.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Chief Marketing Officer, DigitalNext",
+    review:
+      "Partnering with TAPONIX INFINITY to help us analyze and visualize our data was one of the best decisions we’ve made. They created a dashboard that gives us real-time insights into our customers, allowing us to make data-driven decisions that have directly impacted our bottom line. Their team is top-notch!",
+  },
+  {
+    id: 14,
+    name: "Victor L.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Operations Director, HomeGoods Retailers",
+    review:
+      "The predictive models that TAPONIX INFINITY developed for us have been invaluable. We’re now able to anticipate demand patterns, optimize our inventory, and ultimately increase our profitability. The clarity and insights their team provided have been game-changing for our operations.",
+  },
+  {
+    id: 15,
+    name: "Stephanie B.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Customer Support Manager, AutoCare Solutions",
+    review:
+      "The AI-powered customer service solution we implemented with TAPONIX INFINITY has made a huge difference. We’ve seen a reduction in wait times and an increase in customer satisfaction. The AI is highly effective in handling routine queries, leaving our human agents to focus on more complex issues. It’s improved our efficiency dramatically.",
+  },
+  {
+    id: 16,
+    name: "Henry G.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Director of Customer Experience, MobileTech",
+    review:
+      "We decided to integrate AI calling into our customer service operations, and TAPONIX INFINITY helped us develop a system that’s both intuitive and effective. Our customers are receiving faster responses, and we’re seeing higher levels of engagement. It’s been a big win for our customer experience team.",
+  },
+  {
+    id: 17,
+    name: "Eleanor H.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Maintenance Manager, Manufacturing Co.",
+    review:
+      "The IoT solutions TAPONIX INFINITY developed for us have completely transformed the way we monitor and manage our equipment. We can now track performance in real-time, which has allowed us to prevent breakdowns and reduce maintenance costs. Their team was professional, and the results speak for themselves.",
+  },
+  {
+    id: 18,
+    name: "George D.",
+    img: require("../assets/images/testimonials/review-p4.png"),
+    designation: "Product Manager, SmartHome Systems",
+    review:
+      "With the IoT platform developed by TAPONIX INFINITY, we’ve been able to streamline operations and collect data from all our devices in real time. This has enabled us to improve efficiency and make smarter decisions. They did an excellent job understanding our needs and tailoring a solution that fits perfectly.",
   },
 ];
 
