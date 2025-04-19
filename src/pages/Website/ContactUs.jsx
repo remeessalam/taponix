@@ -16,7 +16,7 @@ import InquiryForm from "../../components/InquiryForm";
 
 const ContactUs = () => {
   return (
-    <div className="bg-[#fafafa]">
+    <div className="">
       <Header />
       <div className="min-h-[45vh] md:min-h-[70vh] w-full page-banner relative">
         <img
@@ -62,9 +62,9 @@ const ContactUs = () => {
             className="rounded-md relative bg-primary/5 group hover:bg-primary p-7 border-t-2 border-secondary flex flex-col"
           >
             <div className="text-secondary flex items-center justify-center group-hover:bg-white h-[4rem] w-[4rem] rounded-full bg-primary/5 text-4xl">
-              <PiPhoneCallLight />
+              <PiPhoneCallLight className="" />
             </div>
-            <PiPhoneCallLight className="absolute group-hover:text-white/10 bottom-2 right-2 text-[6rem] lg:text-[10rem] text-gray-200" />
+            <PiPhoneCallLight className="absolute group-hover:text-white/10 bottom-2 right-2 text-[6rem] lg:text-[10rem] text-gray-600" />
             <span className="relative z-10 group-hover:text-white font-semibold mt-4">
               Phone Number
             </span>
@@ -79,7 +79,7 @@ const ContactUs = () => {
             <div className="text-secondary flex items-center justify-center group-hover:bg-white h-[4rem] w-[4rem] rounded-full bg-primary/5 text-4xl">
               <PiEnvelopeLight />
             </div>
-            <PiEnvelopeLight className="absolute group-hover:text-white/10 bottom-2 right-2 text-[6rem] lg:text-[10rem] text-gray-200" />
+            <PiEnvelopeLight className="absolute group-hover:text-white/10 bottom-2 right-2 text-[6rem] lg:text-[10rem] text-gray-600" />
             <span className="relative z-10 group-hover:text-white font-semibold mt-4">
               Email Address
             </span>
@@ -94,7 +94,7 @@ const ContactUs = () => {
             <div className="text-secondary flex items-center justify-center group-hover:bg-white h-[4rem] w-[4rem] rounded-full bg-primary/5 text-4xl">
               <PiMapPinAreaLight />
             </div>
-            <PiMapPinAreaLight className="absolute group-hover:text-white/10 bottom-2 right-2 text-[6rem] lg:text-[10rem] text-gray-200" />
+            <PiMapPinAreaLight className="absolute group-hover:text-white/10 bottom-2 right-2 text-[6rem] lg:text-[10rem] text-gray-600" />
             <span className="relative z-10 group-hover:text-white font-semibold mt-4">
               Location
             </span>

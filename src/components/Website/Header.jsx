@@ -19,7 +19,7 @@ const Header = () => {
             alt="logo"
             width="auto"
             height="auto"
-            className="h-[5rem] md:h-[4rem] object-contain"
+            className="h-[2.5rem] sm:h-[4rem] md:h-[4rem] object-contain"
           />
         </Link>
         <div className="hidden md:flex items-center gap-10">
@@ -40,7 +40,7 @@ const Header = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <Hamburger
-            color="#000000"
+            color="#ffffff"
             size="26"
             toggled={isOpen}
             rounded
@@ -52,7 +52,7 @@ const Header = () => {
         open={isOpen}
         onClose={() => setIsOpen(false)}
         direction="right"
-        className="z-10 p-2"
+        className="z-10 p-2 drawer"
       >
         <div className="mb-6 flex items-center justify-between pr-[.7rem] py-[.4rem]">
           <img

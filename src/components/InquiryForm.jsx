@@ -68,7 +68,7 @@ const InquiryForm = () => {
         className="max-w-5xl mx-auto bg-white p-5 sm:p-8 shadow-large shadow-black/10 rounded-lg relative z-10"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 lg:gap-5">
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 text-black">
             <div data-aos="fade-up" className="flex items-center gap-3">
               <img src={line} alt="line" className="w-[3rem]" />
               <h6 className="font-medium text-secondary">
@@ -79,17 +79,17 @@ const InquiryForm = () => {
               Let’s Collaborate to Innovate
             </h2>
             <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
-              At AI Company, we’re dedicated to providing technology solutions that
-              transform businesses. Contact us today to discuss how our
+              At AI Company, we’re dedicated to providing technology solutions
+              that transform businesses. Contact us today to discuss how our
               expertise can support your business goals.
             </p>
           </div>
           <form
             onSubmit={handleSubmit(handleFormSubmit)}
             data-aos="fade-up"
-            className="flex flex-col gap-1"
+            className="flex flex-col gap-1 text-black"
           >
-            <div className="grid sm:grid-cols-2 gap-3">
+            <div className="grid sm:grid-cols-2 gap-3 ">
               <div className="flex flex-col">
                 <label htmlFor="" className="text-sm ml-1">
                   Name

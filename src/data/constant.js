@@ -53,7 +53,7 @@ export const services = [
   {
     id: 7,
     title: "Data Science Services",
-    icon: require("../assets/images/icons/data-science.svg"),
+    icon: require("../assets/images/icons/data-science.png"),
     description:
       "Unlock insights from your data with predictive modeling, visualization, big data management, and seamless integration.",
     link: "/services/data-science",
@@ -61,7 +61,7 @@ export const services = [
   {
     id: 8,
     title: "AI Calling Agency",
-    icon: require("../assets/images/icons/ai-calling.svg"),
+    icon: require("../assets/images/icons/ai-calling.png"),
     description:
       "Transform customer service with AI-powered assistants, voice recognition, automated scheduling, and real-time analytics.",
     link: "/services/ai-calling-agency",
@@ -69,7 +69,7 @@ export const services = [
   {
     id: 9,
     title: "IoT Development",
-    icon: require("../assets/images/icons/iot.svg"),
+    icon: require("../assets/images/icons/iot.png"),
     description:
       "Connect devices, gain real-time insights, and drive smart operations with secure, scalable IoT solutions.",
     link: "/services/iot-development",

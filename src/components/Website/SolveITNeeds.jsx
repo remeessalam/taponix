@@ -12,7 +12,7 @@ const SolveITNeeds = () => {
           width="800"
           height="300"
           alt="bg"
-          className="w-full h-full object-cover object-center absolute"
+          className="w-full h-full object-cover object-center absolute grayscale"
         />
         <div className="absolute h-full w-full bg-black/20"></div>
         <div className="w-full p-10 relative z-10 text-white flex flex-col sm:flex-row items-center justify-between gap-5">

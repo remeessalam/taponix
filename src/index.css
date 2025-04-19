@@ -25,7 +25,14 @@ body {
 html {
   overflow-x: hidden;
 }
-
+/* menu offcanvas styles */
+.EZDrawer .EZDrawer__container {
+  background: black !important;
+  width: 100vw !important;
+  min-height: 100vh !important;
+  overflow-y: scroll;
+  z-index: 20;
+}
 @layer utilities {
   .wrapper {
     @apply max-w-7xl mx-auto px-4 sm:px-6;

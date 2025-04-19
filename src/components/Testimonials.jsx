@@ -24,9 +24,10 @@ const Testimonials = () => {
   return (
     <div
       id="reviews"
-      className="min-h-[70vh] py-[5rem] w-full bg-cover bg-no-repeat bg-bottom flex items-center z-10"
+      className="relative min-h-[70vh] py-[5rem] w-full bg-cover bg-no-repeat bg-bottom flex items-center z-10"
       style={{ backgroundImage: `url(${testiImg})` }}
     >
+      <div className="absolute w-full h-full bg-primary/20" />
       <div className="wrapper grid lg:grid-cols-2 gap-10 w-full">
         <div
           data-aos="fade-right"
@@ -40,8 +41,9 @@ const Testimonials = () => {
             Clients Feedback Examples You
           </h2>
           <p className="text-gray-600 text-sm mb-5 max-w-[30rem] text-center lg:text-start">
-            At AI Company, we take pride in the success of our clients. Here's what
-            some of them have to say about their experience working with us:
+            At AI Company, we take pride in the success of our clients. Here's
+            what some of them have to say about their experience working with
+            us:
           </p>
           <img
             width="150"
@@ -58,7 +60,7 @@ const Testimonials = () => {
           {testimonials.map((item) => (
             <div
               key={item.id}
-              className="testimonial-item bg-white opacity-0 absolute inset-0 w-full h-full flex flex-col justify-center p-5 rounded-md border-2 border-black/60 shadow-2xl"
+              className="testimonial-item text-black bg-white opacity-0 absolute inset-0 w-full h-full flex flex-col justify-center p-5 rounded-md border-2 border-black/60 shadow-2xl"
             >
               <img
                 width="75"
