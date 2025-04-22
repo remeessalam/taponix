@@ -101,7 +101,7 @@ export const companyDetails = {
   logo: logoImg,
   phone: "+91-9492660509",
   location: "6-23-497, Gautham Nagar, Nizamabad, 503002, Telangana.",
-  email: "abc@xyz.com",
+  email: "info@taponixinfinity.com",
   whatsapplink:
     "https://api.whatsapp.com/send/?phone=9492660509&text&type=phone_number&app_absent=0",
 };
