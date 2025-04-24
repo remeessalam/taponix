@@ -100,7 +100,8 @@ export const services = [
 export const companyDetails = {
   logo: logoImg,
   phone: "+91-9492660509",
-  location: "6-23-497, Gautham Nagar, Nizamabad, 503002, Telangana.",
+  location:
+    "8-3-318/9/5,Jaya Prakash Nagar, Engineers Colony Yella Reddy Guda, Ameerpet, Hyderabad, Telangana 500073",
   email: "info@taponixinfinity.com",
   whatsapplink:
     "https://api.whatsapp.com/send/?phone=9492660509&text&type=phone_number&app_absent=0",
