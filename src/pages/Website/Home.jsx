@@ -191,7 +191,7 @@ const Home = () => {
                     className="rounded-lg h-[20rem] md:h-full md:max-h-[25rem] w-full object-cover object-right"
                   />
                   <div className="w-full sm:w-fit sm:max-w-[18rem] text-white h-full sm:h-fit absolute md:-bottom-[5rem] bottom-0 left-0 bg-primary/70 sm:bg-primary p-5 rounded-lg">
-                    <h3 className="text-5xl font-bold text-white">2+</h3>
+                    <h3 className="text-5xl font-bold text-white">6+</h3>
                     <p className="font-medium mt-3 text-white">
                       Years of Experience
                     </p>
