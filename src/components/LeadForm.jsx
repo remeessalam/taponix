@@ -75,7 +75,7 @@ const LeadForm = () => {
           </p>
           <form
             onSubmit={handleSubmit(handleFormSubmit)}
-            className="flex flex-col gap-1"
+            className="flex flex-col gap-1 text-black"
           >
             <div className="flex flex-col">
               <label htmlFor="" className="text-sm ml-1">
