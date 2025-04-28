@@ -98,6 +98,7 @@ export const services = [
 
 // details
 export const companyDetails = {
+  name: "TAPONIX INFINITY SOLUTIONS LLP",
   logo: logoImg,
   phone: "+91-9492660509",
   location:
