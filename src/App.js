@@ -13,6 +13,7 @@ import { LoadingSpinner } from "./components/LoadingSpinner";
 import DataScience from "./pages/Website/DataScience";
 import AICallingAgency from "./pages/Website/AICallingAgency";
 import IotDevelopment from "./pages/Website/IotDevelopmwent";
+import Thankyou from "./pages/Website/Thankyou";
 
 const Home = React.lazy(() => import("./pages/Website/Home"));
 const AboutUs = React.lazy(() => import("./pages/Website/AboutUs"));
@@ -71,6 +72,7 @@ function App() {
             <Route path="/services" element={<OurServices />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/thank-you" element={<Thankyou />} />
             <Route path="/blogs/:title" element={<BlogDetails />} />
 
             {/* Services Detail Routes with Layout */}

@@ -4,9 +4,12 @@ import { useForm } from "react-hook-form";
 import { companyDetails } from "../data/constant";
 import toast from "react-hot-toast";
 import { SpinnerContext } from "./SpinnerContext";
+import { useNavigate } from "react-router-dom";
 
 const LeadForm = () => {
   const { setSpinner } = useContext(SpinnerContext);
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -17,6 +20,7 @@ const LeadForm = () => {
     defaultValues: {
       name: "",
       email: "",
+      phone: "",
       subject: "",
       message: "",
     },
@@ -28,6 +32,7 @@ const LeadForm = () => {
 
     var emailBody = "Name: " + values.name + "\n\n";
     emailBody += "Email: " + values.email + "\n\n";
+    emailBody += "Phone: " + values.phone + "\n\n";
     emailBody += "Subject: " + values.subject + "\n\n";
     emailBody += "Message:\n" + values.message;
 
@@ -53,6 +58,7 @@ const LeadForm = () => {
       .then(() => {
         toast.success("Email sent successfully");
         reset();
+        navigate("/thank-you");
       })
       .catch((error) => {
         toast.error(error.message);
@@ -115,6 +121,24 @@ const LeadForm = () => {
                 })}
               />
               <small className="error-message">{errors.email?.message}</small>
+            </div>
+            <div className="flex flex-col">
+              <label htmlFor="" className="text-sm ml-1">
+                Phone
+              </label>
+              <input
+                type="text"
+                className="border outline-none border-primary rounded-sm p-2"
+                placeholder="Phone Number"
+                {...register("phone", {
+                  required: "Phone number is required",
+                  pattern: {
+                    value: /^[6-9]\d{9}$/i,
+                    message: "Entered phone number is invalid",
+                  },
+                })}
+              />
+              <small className="error-message">{errors.phone?.message}</small>
             </div>
             <div className="flex flex-col">
               <label htmlFor="" className="text-sm ml-1">
