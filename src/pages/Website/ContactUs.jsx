@@ -49,7 +49,7 @@ const ContactUs = () => {
               <h6 className="font-medium text-secondary">Contact Us</h6>
             </div>
             <h2 data-aos="fade-up" className="heading-2 capitalize">
-              We are ready for your help
+              We are ready to Help you{" "}
             </h2>
             <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
               We’d love to hear from you! Whether you have a project in mind,
